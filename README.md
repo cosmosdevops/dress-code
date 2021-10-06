@@ -1,2 +1,2 @@
 # dress-code
-Kubernetes admission controls 
+A repo of opinionated Kubernetes admission policies
