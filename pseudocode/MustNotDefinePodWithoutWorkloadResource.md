@@ -1,1 +1,1 @@
-[ALL](/pseudocode/README.md#ALL) **POD** s _MUST NOT_ be deployed without a Workload Resource
+[ALL](/pseudocode/README.md#ALL) **POD**s _MUST NOT_ be deployed without a Workload Resource
