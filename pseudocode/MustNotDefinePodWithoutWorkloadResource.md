@@ -1,0 +1,1 @@
+Any **POD** _MUST NOT_ be deployed without a Workload Resource
