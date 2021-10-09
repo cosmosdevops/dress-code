@@ -1,0 +1,1 @@
+Application workloads __SHOULD__ delcare a `/metrics` endpoint providing Application metrics in [OpenMetrics](https://github.com/OpenObservability/OpenMetrics) format.
