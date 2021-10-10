@@ -1,4 +1,4 @@
-[ALL](/pseudocode/README.md#ALL)  **INGRESS** __MUST__ declare a
+[ALL](/pseudocode/README.md#ALL)  **INGRESS** _MUST_ declare a
 ```
 spec.rules[].host
 ```
