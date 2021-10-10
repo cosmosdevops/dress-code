@@ -1,4 +1,4 @@
-[ALL](/pseudocode/README.md#ALL)  **SERVICE**s __MUST NOT__ use 
+[ALL](/pseudocode/README.md#ALL)  **SERVICE**s _MUST NOT_ use 
 ```
 spec.type == "NodePort" 
 ```
