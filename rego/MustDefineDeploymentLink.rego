@@ -8,13 +8,13 @@ required := "deployed-by-link"
 deny[error] {
     keys := input.request.object.metadata.labels
     not array_has_key(keys, required)
-	error := sprintf("Resource must define label '%s'", [required])
+    error := sprintf("Resource must define label '%s'", [required])
 }
 
 regex = `(?i)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b[-a-zA-Z0-9@:%_\+.~#?&//=]*`
 
-deny[msg] {
-	value := input.request.object.metadata.labels[required]
-	not re_match(regex, value)
-	msg := sprintf("Resource label `%v` value must be a valid URL; found `%v`", [required, value])
+deny[error] {
+    value := input.request.object.metadata.labels[required]
+    not re_match(regex, value)
+    msg := sprintf("Resource label `%v` value must be a valid URL; found `%v`", [required, value])
 }
